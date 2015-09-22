@@ -58,9 +58,6 @@ body {
 	font-size:14px;
 	font-weight:normal;
 	color:#888888;
-	margin:0;
-	position: absolute;
-	width: 100%;
 }
 h1{
 	font-family:'rsu';
@@ -105,10 +102,8 @@ p{
 
 .header{
 	text-align:center;
-	background:linear-gradient(
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0)
-    ),url(../img/pw_maze_black_2X.jpg);
+	background:url(../img/main-white.jpg);
+    background-position: 0 30%;
     background-size: cover;
     background-attachment: fixed;
 	padding:250px 0;
@@ -287,6 +282,9 @@ color: #fff;
 /* Services
 ---------------------------------*/
 
+#service{
+
+}
 .service-list{
 	padding:0 0 0 0;
 	font-size:14px;
@@ -468,7 +466,7 @@ img {
 /* Clients
 ---------------------------------*/
 .client-part{
-	background:url(../img/section-bg1.jpg) center center no-repeat;
+	background:url(../img/kan_gr.jpg) fixed 50% 30%;
 	background-size:cover;
 	padding:55px 0;
 	text-align:center;
@@ -661,10 +659,12 @@ border: 2px solid #fff;
 	background:linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ),url(../img/color.jpg);
+    ),url(../img/open.jpg);
 	background-size:cover;
 	background-attachment: fixed;
-	padding:60px 0 10px;
+	padding-top:120px;
+	padding-bottom: 120px;
+	background-position: center;
 	text-align:center;
 }
 .business-talking h2{
