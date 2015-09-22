@@ -102,11 +102,10 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../img/main-white.jpg);
-    background-position: 0 30%;
+	background:url(../img/bg.jpg);
     background-size: cover;
-    background-attachment: fixed;
 	padding:250px 0;
+	background-position: center;
 }
 .time-where{
 	background:linear-gradient(
@@ -466,8 +465,10 @@ img {
 /* Clients
 ---------------------------------*/
 .client-part{
-	background:url(../img/kan_gr.jpg) fixed 50% 30%;
+		background:url(../img/open_small.jpg);
 	background-size:cover;
+	background-position: center;
+	background-attachment: fixed;
 	padding:55px 0;
 	text-align:center;
 }
@@ -656,15 +657,12 @@ border: 2px solid #fff;
 /* Talk Business
 ---------------------------------*/
 .business-talking{
-	background:linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),url(../img/open.jpg);
+	background:url(../img/kan_gr.jpg);
+    background-position: center;
+    background-attachment: fixed;
 	background-size:cover;
-	background-attachment: fixed;
 	padding-top:120px;
 	padding-bottom: 120px;
-	background-position: center;
 	text-align:center;
 }
 .business-talking h2{
@@ -930,8 +928,24 @@ border: 2px solid #fff;
 	animation-delay: 2.4s; 
 	-webkit-animation-delay: 2.4s; 
 }
+.delay-26s { 
+	animation-delay: 2.6s; 
+	-webkit-animation-delay: 2.6s; 
+}
 .delay-30s { 
 	animation-delay: 3s; 
 	-webkit-animation-delay: 3s; 
 }
+.hidden-word{
+	margin-right:-40px; 
+	font-size: 30px;
+}
+.map{
+	text-align: center;
 
+}
+.gmap{
+		margin-top:30px;
+		margin-bottom: 0;
+		padding: 0;
+}

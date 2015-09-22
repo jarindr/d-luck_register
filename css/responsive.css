@@ -11,6 +11,7 @@
 	.form{ margin:0 0 0 20px}
 	.main-nav{ display:block !important; }
 	/*.portfolioContainer{ width:800px; margin:0px auto !important; } */ 
+
 	
 }	
    
@@ -38,7 +39,13 @@
 	.main-nav li a{ padding:8px 15px;}
 	/*.portfolioContainer{ width:750px; margin:0px auto !important; }
 	.Portfolio-box{ height:250px;}*/
-	
+	.client-part{
+	background-attachment: scroll;
+}
+.business-talking{
+		background-attachment: scroll;
+	}
+
 	 
 	
 }
@@ -84,9 +91,21 @@
 	.Portfolio-nav li a{ padding:5px 16px;}
 	.Portfolio-nav li{ display:block;}
 	.logo-small{width: 150px; margin:0 auto; padding:0 auto;}
-	.hidden-word{display: none;}
+	.hidden-word{margin:0 auto; font-size: 30px; margin-top:30px;}
+	.we-create li{
+		display: block;
+		margin: 0 auto;
+		padding: 0;
+	}
 	.logo{display: none;}
+	.client-part{
+	background-attachment: scroll;
+}
+.business-talking{
+		background-attachment: scroll;
+	}
 
+}
 	/*.isotope-item img{ width:300px; left:50%; margin-left:-100px;}
 	.isotope-item{ width:300px; margin:0px auto;}
 	.isotope{ width:400px; margin:0px auto;}
@@ -106,5 +125,11 @@
 	.Portfolio-box{  max-width:300px !important; width:96.4% !important; margin:0 !important}
 	.Portfolio-box img { max-width:100%;}
 	.portfolioContainer{ width:280px !important; margin:0 auto !important } 
-	
+	.client-part{
+	background-attachment: scroll;
+}
+.business-talking{
+		background-attachment: scroll;
+	}
+}
 }
