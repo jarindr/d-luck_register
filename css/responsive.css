@@ -18,7 +18,7 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	/****Ipad Portrait 768 Container 750 ****/
 	body{ font-size:13px;}
-	p{ line-height:20px ;}
+	p{ line-height:25px ;}
 	.header h1{ font-size:46px;}
 	.main-nav ul li a{ padding:14px;}
 	.small-logo{ padding:0 20px;}
@@ -34,7 +34,7 @@
 	.form{ margin:0;}
 	.contact-info-box{ margin:0 ;}
 	.social-link{ margin:0;}
-	
+	.featured-box p{ line-height:25px; }
 	.main-nav{ display:block !important; }
 	.main-nav li a{ padding:8px 15px;}
 	/*.portfolioContainer{ width:750px; margin:0px auto !important; }

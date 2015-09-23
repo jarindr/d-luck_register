@@ -17,7 +17,7 @@ $headers .= "Content-Transfer-Encoding: 8bit\r\n\r\n";
 $msg="Name : ".$name."\n"."Email : ".$email."\n"."Message : ".$text;
 $msg = wordwrap($msg,70);
 $subject="Message from ".$name." (sent from d-luck.com)";
-$recipient="jarindr23@gmail.com";
+$recipient="audition.dluck@gmail.com";
 $mail = mail($recipient, $subject, $msg, $headers) or die("Error!");
 if ($mail) {
 header("refresh:3; url=index.html");
