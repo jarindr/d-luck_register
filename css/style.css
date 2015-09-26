@@ -63,14 +63,13 @@ h1{
 	font-family:'rsu';
 }
 h2{
-	font-size:34px;
+	font-size:40px;
+text-shadow: 1px 1px gray;
 	color:#222222;
 	font-family: 'rsu', sans-serif;
-	font-weight:700;
-	letter-spacing: -1px;
-	margin:0 0 15px 0;
+	letter-spacing: 1px;
+	margin:0 0 50px 0;
 	text-align:center;
-	text-transform:uppercase;
 }
 h3{
 	font-family: 'rsu', sans-serif;
@@ -88,15 +87,24 @@ h6{
 	text-align:center;
 	margin:0 0 60px 0;
 }
+h5{
+	margin-top:20px; 
+	color:red; 
+	font-family: 'rsu'; font-size:27px;
+}
+
 p{
-	line-height:24px;
+	line-height:27px;
 	margin:0;
-	font-size:19px;
-	padding-bottom:5px;
+	font-size:21px;
+	padding-bottom:10px;
 	color:black;
 	font-family: 'rsu', sans-serif;
 }
-
+.email_send{
+	font-size: 40px;
+	color:green;
+}
 /* Header Styles
 ---------------------------------*/
 
@@ -108,12 +116,15 @@ p{
 	background-position: center;
 }
 .time-where{
-	background:linear-gradient(
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0)
-    ),url(../img/white_bg.jpg);
-    background-size: 100%;
+	background:url(../img/bg_black.jpg);
+    background-size: cover;
+    background-position: top;
     background-attachment: fixed;	
+}
+#team{
+			background:url(../img/white_bg.jpg);
+    background-size: cover;
+    background-position: top;
 }
 .logo{
 	position: absolute;
@@ -280,9 +291,56 @@ color: #fff;
 
 /* Services
 ---------------------------------*/
-
+#how-to{
+		background:url(../img/white_bg.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.key{
+	width:300px; 
+	text-align: center; 
+	top:-20px;
+	position: relative;
+	animation: key_animate ease 2s infinite;
+}
+@keyframes key_animate{
+	 50% { 
+	 	top:0px;
+	 	} 
+	 100% { 
+	 	top:-20px;
+	 	} 
+}
+@-webkit-keyframes key_animate {
+	 50% { 
+	 	top:0px;
+	 	} 
+	 100% { 
+	 	top:-20px;
+	 	} 
+}
+@keyframes shadow_react { 
+	50% { 
+		margin:0px 30% 0px 30%; opacity:0.7; 
+	} 
+	100% { 
+		margin:0px 20% 0px 20%; opacity:0.1;  
+		} 
+}
+.box-shadow{
+	position: relative;
+	height:16px;
+	background: #999;
+	opacity:0.1;
+	border-radius:100%;
+	margin:0px 20% 0px 20%;
+	animation: shadow_react ease 2s infinite;
+}
 #service{
-
+	background:url(../img/bg_black.jpg);
+    background-size: cover;
+    background-position: 0 30%;
+    background-attachment: fixed;
 }
 .service-list{
 	padding:0 0 0 0;
@@ -464,8 +522,13 @@ img {
 
 /* Clients
 ---------------------------------*/
+#client{
+			background:url(../img/white_bg.jpg);
+    background-size: cover;
+    background-position: top;
+}
 .client-part{
-		background:url(../img/open_small.jpg);
+		background:url(../img/open_small_fix.jpg);
 	background-size:cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -679,24 +742,27 @@ border: 2px solid #fff;
 /* Contact
 ---------------------------------*/
 .main-section.contact{
-	padding:90px 0 100px;
-}
 
+}
+span{
+	font-family: 'rsu', sans-serif;
+}
 .main-section.contact{
 	background:url(../img/bg-map.png) left 190px no-repeat;
 }
 .contact-info-box{
-	font-size:15px;
-	margin:0 0 14px 68px;
+	font-size:20px;
 	padding-left:0;
 }
 .contact-info-box h3{
-	font-size: 15px;
-	font-weight:400;
-	float:left;
-	width:102px;
-	margin-right:12px;
-	line-height:28px;
+	font-size: 30px;
+	line-height:30px;
+}
+#contact{
+	text-align: center;
+	background: url(../img/map_bg.jpg);
+	background-size: cover;
+	background-position: 0 30%;
 }
 .contact-info-box h3 i{
 	font-style:normal;
@@ -704,12 +770,11 @@ border: 2px solid #fff;
 	color:#222222;
 	font-family: 'FontAwesome';
 	font-weight:normal;
-	margin-right:7px;
 }
 .contact-info-box span{
 	line-height:28px;
+	font-size: 28px;
 	display:block;
-	overflow:hidden;
 }
 .social-link{
 	padding:35px 0;
@@ -809,11 +874,9 @@ border: 2px solid #fff;
 ---------------------------------*/
 
 .footer{
-	background:linear-gradient(
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0)
-    ),url(../img/white_bg.jpg);
-	padding:35px 0 35px;
+	background:url(../img/congruent_outline.png) left top repeat;
+	padding-top: 50px;
+	padding-bottom: 50px;
 
 }
 .footer-logo{
@@ -822,7 +885,7 @@ border: 2px solid #fff;
 }
 .copyright{
 	color:#cccccc;
-	font-size:14px;
+	font-size:20px;
 	display:block;
 	text-align:center;
 }
@@ -867,7 +930,7 @@ border: 2px solid #fff;
 }
 
 
-/* Animation Timers
+/* Animation setTimeout(cb, ms)	rs
 ---------------------------------*/
 .delay-02s { 
 	animation-delay: 0.2s; 

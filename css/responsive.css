@@ -22,7 +22,7 @@
 	.header h1{ font-size:46px;}
 	.main-nav ul li a{ padding:14px;}
 	.small-logo{ padding:0 20px;}
-	h2{ font-size:30px}
+	h2{ font-size:30px; margin-bottom:30px;}
 	h6{ font-size:16px;}
 	h3{ font-size:15px;}
 	.service-list{ margin-bottom:20px; font-size:15px;}
@@ -45,6 +45,12 @@
 .business-talking{
 		background-attachment: scroll;
 	}
+	#service{
+	background-attachment: scroll;
+}
+.time-where{
+	background-attachment: scroll;
+}
 
 	 
 	
@@ -52,11 +58,15 @@
 
 @media only screen and (max-width: 767px) {
 	/****Mobile Landscape 480 Container 100% ****/
+	.hidden-mobile{
+		display: none;
+	}
 	body{ font-size:12px;}
-	h2{ font-size:26px;}
+	h2{ font-size:26px; margin-bottom:20px;}
 	h3{ font-size:14px;}
 	h6{ font-size:16px; margin-bottom:40px;}
-	p{ line-height:25px;}
+	p{ line-height:23px; font-size:20px;}
+	h5{ font-size:22px;}
 	.after-menu{margin-top:60px;}
 	.service-list{ font-size:12px; margin-bottom:20px;}
 	.we-create li{ font-size:13px; padding:0 0 0 8px}
@@ -77,8 +87,8 @@
 	.c-logo-part ul a{ margin-bottom:5px;}
 	.main-section.team{ padding:60px 0 50px;}
 	.business-talking h2{ font-size:36px;}
-	.contact-info-box{ margin:0 0 12px 30px; font-size:12px;}
-	.contact-info-box span{ line-height:18px;}
+	.contact-info-box{ font-size:12px;}
+	.contact-info-box span{ line-height:30px;}
 	.social-link{ margin-left:30px;} 
 	.form{ margin:0 30px;}
 	.copyright{ font-size:12px;}
@@ -101,9 +111,19 @@
 	.client-part{
 	background-attachment: scroll;
 }
+#service{
+	background-attachment: scroll;
+}
+.time-where{
+	background-attachment: scroll;
+}
 .business-talking{
 		background-attachment: scroll;
 	}
+	.email_send{
+	font-size: 25px;
+	color:green;
+}
 
 }
 	/*.isotope-item img{ width:300px; left:50%; margin-left:-100px;}
@@ -131,5 +151,11 @@
 .business-talking{
 		background-attachment: scroll;
 	}
+	#service{
+	background-attachment: scroll;
+}
+.time-where{
+	background-attachment: scroll;
+}
 }
 }
